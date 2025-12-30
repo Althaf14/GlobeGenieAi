@@ -1,0 +1,127 @@
+Error: Trip validation failed: itinerary.0.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  `    activity: "Explore Fort Kochi: Visit St. Francis Church (India's oldest European church) and Santa Cruz Basilica. Wander through the charming streets.",\n` +
+  "    type: 'Historical, Religious',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  "    activity: 'Witness the iconic Chinese Fishing Nets in action. Enjoy a leisurely walk along the promenade and soak in the colonial architecture.',\n" +
+  "    type: 'Historical, Cultural',\n" +
+  "    cost: 'Free'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Experience a traditional Kathakali performance at a local cultural center. Arrive early for a demonstration of makeup application.',\n" +
+  "    type: 'Cultural, Traditional',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError", itinerary.1.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  "    activity: 'Visit Mattancherry Palace (Dutch Palace) with its stunning murals. Afterwards, explore the historic Paradesi Synagogue in Jew Town.',\n" +
+  "    type: 'Historical, Museum, Religious',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  `    activity: "Browse the antique shops and spice markets in Jew Town. Discover unique souvenirs and learn about Kochi's trade history.",\n` +
+  "    type: 'Historical, Cultural, Shopping',\n" +
+  "    cost: 'Free'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Enjoy a serene sunset boat ride through the backwaters of Kochi, offering picturesque views of the coastline and city.',\n" +
+  "    type: 'Scenic, Relaxing',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError", itinerary.2.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  "    activity: 'Journey to the Hill Palace Museum, the largest archaeological museum in Kerala, once the imperial administrative office and official residence of the Kochi Maharajas.',\n" +
+  "    type: 'Historical, Museum',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  `    activity: "Immerse yourself in Kerala's rich heritage at the Kerala Folklore Museum, showcasing artifacts, costumes, and traditional art forms.",\n` +
+  "    type: 'Cultural, Historical',\n" +
+  "    cost: 'Medium'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Indulge in a traditional Kerala dinner at a highly-rated local restaurant, savoring authentic regional flavors and fresh seafood.',\n" +
+  "    type: 'Culinary, Cultural',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError"
+Stack: ValidationError: Trip validation failed: itinerary.0.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  `    activity: "Explore Fort Kochi: Visit St. Francis Church (India's oldest European church) and Santa Cruz Basilica. Wander through the charming streets.",\n` +
+  "    type: 'Historical, Religious',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  "    activity: 'Witness the iconic Chinese Fishing Nets in action. Enjoy a leisurely walk along the promenade and soak in the colonial architecture.',\n" +
+  "    type: 'Historical, Cultural',\n" +
+  "    cost: 'Free'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Experience a traditional Kathakali performance at a local cultural center. Arrive early for a demonstration of makeup application.',\n" +
+  "    type: 'Cultural, Traditional',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError", itinerary.1.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  "    activity: 'Visit Mattancherry Palace (Dutch Palace) with its stunning murals. Afterwards, explore the historic Paradesi Synagogue in Jew Town.',\n" +
+  "    type: 'Historical, Museum, Religious',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  `    activity: "Browse the antique shops and spice markets in Jew Town. Discover unique souvenirs and learn about Kochi's trade history.",\n` +
+  "    type: 'Historical, Cultural, Shopping',\n" +
+  "    cost: 'Free'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Enjoy a serene sunset boat ride through the backwaters of Kochi, offering picturesque views of the coastline and city.',\n" +
+  "    type: 'Scenic, Relaxing',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError", itinerary.2.activities.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    time: 'Morning',\n" +
+  "    activity: 'Journey to the Hill Palace Museum, the largest archaeological museum in Kerala, once the imperial administrative office and official residence of the Kochi Maharajas.',\n" +
+  "    type: 'Historical, Museum',\n" +
+  "    cost: 'Low'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Afternoon',\n" +
+  `    activity: "Immerse yourself in Kerala's rich heritage at the Kerala Folklore Museum, showcasing artifacts, costumes, and traditional art forms.",\n` +
+  "    type: 'Cultural, Historical',\n" +
+  "    cost: 'Medium'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    time: 'Evening',\n" +
+  "    activity: 'Indulge in a traditional Kerala dinner at a highly-rated local restaurant, savoring authentic regional flavors and fresh seafood.',\n" +
+  "    type: 'Culinary, Cultural',\n" +
+  "    cost: 'Medium'\n" +
+  '  }\n' +
+  ']" (type string) at path "activities.0" because of "CastError"
+    at Document.invalidate (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\document.js:3370:32)
+    at Subdocument.invalidate (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\types\subdocument.js:252:12)
+    at EmbeddedDocument.$set (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\document.js:1495:12)
+    at EmbeddedDocument.$set (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\document.js:1147:16)
+    at EmbeddedDocument.Document (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\document.js:178:12)
+    at EmbeddedDocument.Subdocument (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\types\subdocument.js:43:12)
+    at EmbeddedDocument.ArraySubdocument [as constructor] (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\types\arraySubdocument.js:44:15)
+    at new EmbeddedDocument (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\schema\documentArray.js:144:17)
+    at SchemaDocumentArray.cast (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\schema\documentArray.js:478:22)
+    at SchemaType.applySetters (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\mongoose\lib\schemaType.js:1280:12)
+Body: {"destination":"kochi","duration":3,"budget":"Medium","itinerary":[{"day":1,"activities":[{"time":"Morning","activity":"Explore Fort Kochi: Visit St. Francis Church (India's oldest European church) and Santa Cruz Basilica. Wander through the charming streets.","type":"Historical, Religious","cost":"Low"},{"time":"Afternoon","activity":"Witness the iconic Chinese Fishing Nets in action. Enjoy a leisurely walk along the promenade and soak in the colonial architecture.","type":"Historical, Cultural","cost":"Free"},{"time":"Evening","activity":"Experience a traditional Kathakali performance at a local cultural center. Arrive early for a demonstration of makeup application.","type":"Cultural, Traditional","cost":"Medium"}]},{"day":2,"activities":[{"time":"Morning","activity":"Visit Mattancherry Palace (Dutch Palace) with its stunning murals. Afterwards, explore the historic Paradesi Synagogue in Jew Town.","type":"Historical, Museum, Religious","cost":"Low"},{"time":"Afternoon","activity":"Browse the antique shops and spice markets in Jew Town. Discover unique souvenirs and learn about Kochi's trade history.","type":"Historical, Cultural, Shopping","cost":"Free"},{"time":"Evening","activity":"Enjoy a serene sunset boat ride through the backwaters of Kochi, offering picturesque views of the coastline and city.","type":"Scenic, Relaxing","cost":"Medium"}]},{"day":3,"activities":[{"time":"Morning","activity":"Journey to the Hill Palace Museum, the largest archaeological museum in Kerala, once the imperial administrative office and official residence of the Kochi Maharajas.","type":"Historical, Museum","cost":"Low"},{"time":"Afternoon","activity":"Immerse yourself in Kerala's rich heritage at the Kerala Folklore Museum, showcasing artifacts, costumes, and traditional art forms.","type":"Cultural, Historical","cost":"Medium"},{"time":"Evening","activity":"Indulge in a traditional Kerala dinner at a highly-rated local restaurant, savoring authentic regional flavors and fresh seafood.","type":"Culinary, Cultural","cost":"Medium"}]}],"startDate":"2025-12-25T19:19:07.084Z"}

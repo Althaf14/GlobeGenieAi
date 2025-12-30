@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-50: #f8fafc;
+  --color-slate-900: #0f172a;
+}
+
+/* 
+  Correct way to apply base styles in v4 is via @layer base 
+  but v4 works differently. For now, simple standard CSS or @layer base works if configured.
+  Simple body styling:
+*/
+body {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+}

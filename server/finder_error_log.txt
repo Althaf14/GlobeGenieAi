@@ -1,0 +1,15 @@
+Error: Error
+Stack: AggregateError: Error
+    at AxiosError.from (file:///e:/Althaf/Projects/GlobeGenieAI/server/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (file:///e:/Althaf/Projects/GlobeGenieAI/server/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (e:\Althaf\Projects\GlobeGenieAI\server\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (file:///e:/Althaf/Projects/GlobeGenieAI/server/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async findPlaces (file:///e:/Althaf/Projects/GlobeGenieAI/server/controllers/finderController.js:21:24)

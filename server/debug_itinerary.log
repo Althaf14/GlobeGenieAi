@@ -1,0 +1,70 @@
+[2025-12-17T13:51:26.193Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"],"destination":"d"}
+Key Present: false
+Error: GEMINI_API_KEY is missing
+[2025-12-17T13:51:30.292Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"],"destination":"d"}
+Key Present: false
+Error: GEMINI_API_KEY is missing
+[2025-12-17T13:59:31.489Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"],"destination":"kochi"}
+Key Present: false
+Error: GEMINI_API_KEY is missing
+[2025-12-17T13:59:37.054Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"],"destination":"kochi"}
+Key Present: false
+Error: GEMINI_API_KEY is missing
+[2025-12-17T14:03:38.998Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"]}
+Key Present: true
+AI Error: {"error":{"code":503,"message":"The model is overloaded. Please try again later.","status":"UNAVAILABLE"}}
+Stack: ApiError: {"error":{"code":503,"message":"The model is overloaded. Please try again later.","status":"UNAVAILABLE"}}
+    at throwErrorIfNotOK (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:12022:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:11742:13
+    at async Models.generateContent (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:13072:24)
+    at async generateItinerary (file:///E:/Althaf/Projects/GlobeGenieAI/server/controllers/itineraryController.js:57:30)
+[2025-12-17T14:05:54.899Z] Request: {"days":3,"budget":"Medium","interests":["Adventure","Historical"]}
+Key Present: true
+AI Error: {"error":{"code":404,"message":"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+Stack: ApiError: {"error":{"code":404,"message":"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at throwErrorIfNotOK (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:12022:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:11742:13
+    at async Models.generateContent (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:13072:24)
+    at async generateItinerary (file:///E:/Althaf/Projects/GlobeGenieAI/server/controllers/itineraryController.js:57:30)
+[2025-12-17T14:15:04.477Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Adventure"]}
+Key Present: true
+AI Error: {"error":{"code":503,"message":"The model is overloaded. Please try again later.","status":"UNAVAILABLE"}}
+Stack: ApiError: {"error":{"code":503,"message":"The model is overloaded. Please try again later.","status":"UNAVAILABLE"}}
+    at throwErrorIfNotOK (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:12022:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:11742:13
+    at async Models.generateContent (file:///E:/Althaf/Projects/GlobeGenieAI/server/node_modules/@google/genai/dist/node/index.mjs:13072:24)
+    at async runGeneration (file:///E:/Althaf/Projects/GlobeGenieAI/server/controllers/itineraryController.js:58:34)
+    at async generateItinerary (file:///E:/Althaf/Projects/GlobeGenieAI/server/controllers/itineraryController.js:74:30)
+[2025-12-25T18:38:14.517Z] Request: {"days":3,"budget":"Medium","interests":["Nature","Historical"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 1834
+[2025-12-25T18:43:41.359Z] Request: {"days":3,"budget":"Medium","interests":["Historical"]}
+Key Present: true
+AI Response Length: 1818
+[2025-12-25T18:48:31.058Z] Request: {"days":3,"budget":"Medium","interests":["Historical"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 2792
+[2025-12-25T18:59:40.292Z] Request: {"days":3,"budget":"Medium","interests":["Adventure"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 2338
+[2025-12-25T19:06:36.996Z] Request: {"days":3,"budget":"Medium","interests":["Historical"],"destination":"tokyo"}
+Key Present: true
+AI Response Length: 1616
+[2025-12-25T19:08:34.114Z] Request: {"days":3,"budget":"Medium","interests":["Nature"],"destination":"london"}
+Key Present: true
+AI Response Length: 1540
+[2025-12-25T19:10:18.377Z] Request: {"days":3,"budget":"Medium","interests":["Nature"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 2834
+[2025-12-25T19:13:35.540Z] Request: {"days":3,"budget":"Medium","interests":["Nature"],"destination":"sweeden"}
+Key Present: true
+AI Response Length: 2113
+[2025-12-25T19:14:39.614Z] Request: {"days":3,"budget":"Medium","interests":["Historical"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 2601
+[2025-12-25T19:18:55.465Z] Request: {"days":3,"budget":"Medium","interests":["Historical"],"destination":"kochi"}
+Key Present: true
+AI Response Length: 2306
